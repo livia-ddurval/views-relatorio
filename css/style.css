@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: rgb(240,139,220);
+    background: radial-gradient(circle, rgba(240,139,220,1) 0%, rgba(159,120,182,1) 88%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+}
+.view {
+    width: 25%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+    height: 70px;
+}
+
+.turma {
+    width: 50%; 
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.turma h2 {
+    color: #333;
+}
+
+.turma p {
+    color: #666;
+}
